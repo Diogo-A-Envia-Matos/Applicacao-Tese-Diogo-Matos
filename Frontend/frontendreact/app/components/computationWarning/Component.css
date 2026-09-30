@@ -1,0 +1,15 @@
+.warning-message {
+    display: flex;
+    align-items: center;
+    background-color: #ffd699;
+    color: #00004d;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.warning-icon {
+    margin-right: 16px;
+    color: #00004d;
+}

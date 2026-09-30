@@ -1,0 +1,172 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  white-space: pre-line;
+  margin-bottom: 1rem;
+}
+
+.slots-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.slots-table th,
+.slots-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.slots-table th {
+  background-color: #f2f2f2;
+}
+
+.hour-cell {
+  font-weight: bold;
+}
+
+.date-cell {
+  font-weight: bold;
+}
+
+.slot-exists {
+  background-color: lightgreen;
+}
+
+.slot-not-exists {
+  background-color: #fff;
+}
+
+.confirm-delete-container {
+  margin-top: 20px;
+}
+
+.confirm-delete-buttons button:last-child {
+  margin-right: 0;
+}
+
+.confirm-delete-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-delete-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.confirm-delete-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.confirm-delete-buttons button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fff; 
+  border: 1px solid #6c757d; 
+  border-radius: 8px;
+}
+
+.delete-button {
+  margin-left: 5px; 
+}
+
+.add-slot-button {
+  margin-right: 15px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-slot-button:hover {
+  background-color: #0056b3;
+}
+
+.add-slot-button:disabled {
+  background-color: rgba(58, 153, 252, 0.750);
+}
+
+.add-slot-form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.input-field {
+  width: calc(50% - 10px);
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submit-slot-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #28a745; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.submit-slot-button:hover {
+  background-color: #218838; 
+}
+
+.submit-slot-button:disabled {
+  background-color: rgba(111, 208, 132, 0.750); 
+}
+
+.warning-message {
+    display: flex;
+    align-items: center;
+    background-color: #ffd699;
+    color: #00004d;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.error-icon {
+  margin-right: 5px;
+  color: red;
+}
+
+.message-spacing {
+  margin-top: 1rem;
+  white-space: pre-line;
+}

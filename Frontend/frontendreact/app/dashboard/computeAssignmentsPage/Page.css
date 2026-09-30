@@ -1,0 +1,84 @@
+.content-container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .compute-info {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .compute-info p {
+    color: #000000;
+    margin: 5px 0;
+  }
+  
+  .compute-info ol {
+    color: #000000;
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style: decimal;
+  }
+  
+  .compute-info li {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .compute-info strong {
+    margin-right: 5px;
+    color: #555;
+  }
+  
+  .compute-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .compute-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .compute-button:disabled {
+    background-color: rgba(58, 153, 252, 0.750);;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .warning-message {
+      display: flex;
+      align-items: center;
+      background-color: #ffd699;
+      color: #00004d;
+      margin-top: 8px;
+      border-radius: 8px;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  

@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=xxx
+      - POSTGRES_PASSWORD=xxx
+      - POSTGRES_DB=postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - app-network
+
+  kotlin-backend:
+    build:
+      context: ./API-Kotlin
+      dockerfile: Dockerfile
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/postgres
+      - SPRING_DATASOURCE_USERNAME=xxx
+      - SPRING_DATASOURCE_PASSWORD=xxx
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - JWT_KEY=xxx
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  python-backend:
+    build:
+      context: ./API-Python
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - app-network
+    depends_on:
+      - kotlin-backend
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  frontend:
+    build:
+      context: ./Frontend/frontendreact
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+    depends_on:
+      - kotlin-backend
+      - python-backend
+    
+networks:
+  app-network:
+    driver: bridge

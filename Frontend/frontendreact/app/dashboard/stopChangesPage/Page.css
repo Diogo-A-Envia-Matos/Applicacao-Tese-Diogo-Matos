@@ -1,0 +1,105 @@
+.content-container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.stop-changes-info {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+
+.stop-changes-info p {
+  margin: 5px 0;
+}
+
+.stop-changes-info ol {
+  margin-left: 20px;
+  padding-left: 20px;
+  list-style: decimal;
+}
+
+.stop-changes-info li {
+  margin-bottom: 10px;
+}
+
+.stop-changes-info strong {
+  margin-right: 5px;
+  color: #555;
+}
+
+.stop-changes-description {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.stop-changes-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stop-changes-button:hover {
+  background-color: #0056b3;
+}
+
+.stop-changes-button:disabled {
+  background-color: rgba(58, 153, 252, 0.750);
+}
+
+.allow-changes-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.allow-changes-button:hover {
+  background-color: #0056b3;
+}
+
+.allow-changes-button:disabled {
+  background-color: rgba(58, 153, 252, 0.750);
+}
+
+.success-message {
+  color: green;
+  margin-top: 20px;
+  display: flex;
+}
+
+.warning-message {
+  display: flex;
+  align-items: center;
+  background-color: #ffd699;
+  color: #00004d;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 20px;
+  display: flex;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}

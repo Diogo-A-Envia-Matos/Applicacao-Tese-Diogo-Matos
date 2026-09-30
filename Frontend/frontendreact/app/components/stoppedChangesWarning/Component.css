@@ -1,0 +1,27 @@
+.stopped-changes-container {
+  margin: 0 auto 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stopped-changes-header {
+  margin-bottom: 1rem;
+}
+
+.stopped-changes-message {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 56, 56, 0.750);
+    color: #00004d;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.stopped-changes-icon {
+    margin-right: 16px;
+    color: #00004d;
+}

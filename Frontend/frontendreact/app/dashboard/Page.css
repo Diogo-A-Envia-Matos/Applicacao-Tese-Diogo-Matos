@@ -1,0 +1,58 @@
+.page-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    color: #000000;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.presentation-table {
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.presentation-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.presentation-table th, .presentation-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.presentation-table th {
+    background-color: #f2f2f2;
+}
+
+.presentation-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.presentation-table tr:hover {
+    background-color: #ddd;
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: #838485;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.download-button:hover {
+    background-color: #525353;
+}
+

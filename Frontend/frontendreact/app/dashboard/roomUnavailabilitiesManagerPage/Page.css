@@ -1,0 +1,225 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.day-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #4d4d4d;
+  margin-top: 1rem; 
+  margin-bottom: 1rem; 
+  text-align: left;
+}
+
+.restriction-submission {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-restriction-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-restriction-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-restriction-button:disabled {
+  background-color: rgba(58, 153, 252, 0.750);
+}
+
+.presentation-input-field {
+    width: calc(100% - 10px);
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.room-input-field {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.input-field {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.presentation-table {
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.presentation-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.presentation-table th, .presentation-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.presentation-table th {
+    background-color: #f2f2f2;
+}
+
+.presentation-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.slots-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+  
+.slots-table th,
+.slots-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.slots-table th {
+  background-color: #f2f2f2;
+}
+
+.room-unavailability-table {
+  margin-bottom: 1rem;
+}
+
+.room-unavailability-slots-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+  
+.room-unavailability-slots-table th,
+.room-unavailability-slots-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.room-unavailability-slots-table th {
+  background-color: #f2f2f2;
+}
+
+.hour-cell {
+  font-weight: bold;
+}
+
+.date-cell {
+  font-weight: bold;
+}
+
+.slot-exists {
+  background-color: lightgreen;
+}
+
+.slot-not-exists {
+  background-color: #fff;
+}
+
+.slot-has-presentation {
+  background-color: lightgreen;
+}
+
+.slot-unassigned {
+  background-color: #fff;
+}
+
+.slot-filtered {
+  background-color: #0056B3;
+  color: #fff;
+}
+
+.slot-unavailable {
+  background-color: red;
+}
+
+.slot-unsuitable {
+  background-color: yellow;
+}
+
+.slot-exists.slot-additional-unavailable {
+  background-color: #C30000;
+}
+
+.slot-exists.slot-additional-unsuitable {
+  background-color: #C3C300;
+}
+
+.slot-additional-unavailable {
+  background-color: #C30000;
+}
+
+.slot-additional-unsuitable {
+  background-color: #C3C300;
+}
+
+.slot-unavailable.slot-additional-unavailable {
+  background-color: #C30000;
+}
+
+.slot-unavailable.slot-additional-unsuitable {
+  background-color: #C3C300;
+}
+
+.slot-unsuitable.slot-additional-unavailable {
+  background-color: #C30000;
+}
+
+.slot-unsuitable.slot-additional-unsuitable {
+  background-color: #C3C300;
+}
+
+.success-message {
+  color: green;
+  margin-top: 20px;
+  display: flex;
+}
+
+.failure-message {
+  color: red;
+  margin-top: 20px;
+  display: flex;
+}
+
+.error-message {
+  color: red;
+  margin-top: 20px;
+  display: flex;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}

@@ -1,0 +1,15 @@
+.info-message {
+    display: flex;
+    align-items: center;
+    background-color: #65B0FE;
+    color: #00004d;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.info-icon {
+    margin-right: 16px;
+    color: #00004d;
+}

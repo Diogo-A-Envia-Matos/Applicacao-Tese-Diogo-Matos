@@ -1,0 +1,90 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.input-field {
+  width: calc(50% - 10px);
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.slots-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.slots-table th,
+.slots-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.slots-table th {
+  background-color: #f2f2f2;
+}
+
+.hour-cell {
+  font-weight: bold;
+}
+
+.date-cell {
+  font-weight: bold;
+}
+
+.slot-exists {
+  background-color: lightgreen;
+}
+
+.slot-not-exists {
+  background-color: #fff;
+}
+
+.slot-unavailable {
+  background-color: red;
+}
+
+.slot-unsuitable {
+  background-color: yellow;
+}
+
+.slot-additional-unavailable {
+  background-color: #C30000;
+}
+
+.slot-additional-unsuitable {
+  background-color: #C3C300;
+}
+
+.slot-ignored {
+  background-color: #218838;
+}
+
+.slot-unsuitable.slot-ignored {
+  background-color: #218838;
+}
+
+.slot-additional-unsuitable.slot-ignored {
+  background-color: #218838;
+}
+  
+.error-message {
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.error-icon {
+  margin-right: 5px;
+  color: red;
+}
